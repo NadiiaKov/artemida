@@ -68,8 +68,8 @@
             action: 'resizeImage',
             // Use "image" as prefix for the "@" options:
             prefix: 'image',
-            maxWidth: '@',
-            maxHeight: '@',
+            maxWidth: 1000,
+            maxHeight: 1000,
             minWidth: '@',
             minHeight: '@',
             crop: '@',
@@ -132,7 +132,7 @@
             // Define if resized images should be cropped or only scaled:
             imageCrop: false,
             // Disable the resize image functionality by default:
-            disableImageResize: true,
+            disableImageResize: false,
             // The maximum width of the preview images:
             previewMaxWidth: 80,
             // The maximum height of the preview images:
